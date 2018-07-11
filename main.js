@@ -558,7 +558,7 @@ $(document).ready(function () {
     DisclaimerText = DisclaimerText.replace('{!DataProtection}', DisclaimerDataProtection);
     $('form').append(DisclaimerText);
     //marks required fields with _*. Reflows text and star together.
-    $('.reqMark').append('<span class="RequiredField"">â€‡*</span>');
+    $('.reqMark').append('<span class="RequiredField""> *</span>');
     //hides the school picker when the window changes size
     $(window).resize(function () {
         $('ul').hide();
