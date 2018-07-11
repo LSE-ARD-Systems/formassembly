@@ -1,0 +1,653 @@
+@import url(https://fonts.googleapis.com/css?family=Hind);
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i);
+.wFormWebPage {
+  padding: 20px;
+}
+
+.wFormContainer {
+  /*! border: 1px solid #dddddd; */
+  border-radius: 5px;
+  -webkit-animation: fadein 1.5s;
+  /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 1.5s;
+  /* Firefox < 16 */
+  -ms-animation: fadein 1.5s;
+  /* Internet Explorer */
+  -o-animation: fadein 1.5s;
+  /* Opera < 12.1 */
+  animation: fadein 1.5s;
+  margin-top: 70px;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadein {
+  .wFormContainer from {
+    opacity: 0;
+  }
+  .wFormContainer to {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.wFormContainer .sv-form-group {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.wFormContainer .RequiredField {
+  color: #fe6263;
+}
+
+.wFormContainer legend {
+  font-family: "Roboto Slab";
+  border: 0;
+  padding-top: 10px;
+}
+
+.wFormContainer fieldset fieldset>legend {
+  font-size: 1.3em;
+  float: right;
+}
+
+.wFormContainer fieldset fieldset {
+  border: 1px solid #dddddd !important;
+  border-radius: 5px !important;
+  padding: 10px !important;
+  margin: 0.4em;
+  background-color: #f5f5f5 !important;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.wFormContainer fieldset>div>fieldset {
+  margin-left: 1.4em;
+  margin-right: 1.4em;
+}
+
+.wFormContainer .htmlContent {
+  padding: 0 20px 0 20px;
+}
+
+.wFormContainer input,
+.wFormContainer select {
+  border-radius: 3px !important;
+}
+
+.wFormContainer .wFormTitle {
+  margin-left: -15px;
+  margin-right: -15px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-top-left-radius: 4px !important;
+  border-top-right-radius: 4px !important;
+}
+
+.wFormContainer .logo {
+  text-align: left;
+  margin-top: -75px;
+  margin-left: -15px;
+  padding-bottom: 15px;
+}
+
+.wFormContainer .logo-image {
+  height: 60px;
+}
+
+.wFormContainer .lengthIndicator[style] {
+  display: none !important;
+}
+
+.wFormContainer .required {
+  background-color: white;
+  transition: background-color 0.4s ease-in, color 0.4s ease-in;
+}
+
+.wFormContainer .phone-element-dial {
+  float: left;
+  width: 170px;
+}
+
+.wFormContainer .phone-element-number {
+  float: left;
+  width: calc(100% - 170px);
+}
+
+.wFormContainer li,
+.wFormContainer li>a {
+  cursor: pointer !important;
+}
+
+.wFormContainer .select-item>input {
+  display: none;
+}
+
+.wFormContainer .select-item>label {
+  padding: 0px;
+  margin: 0;
+  display: block;
+  transition: background-color 0.2s ease, color 0.2s ease;
+  word-wrap: break-word !important;
+}
+
+.wFormContainer .select-item:first-of-type>label {
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.wFormContainer .select-item:last-of-type>label {
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.wFormContainer .select-item {
+  padding: 0px;
+  margin: auto;
+}
+
+.wFormContainer input[type="checkbox"]:checked+label,
+.wFormContainer input[type="radio"]:checked+label {
+  color: white;
+  background-color: #227c0e;
+}
+
+.wFormContainer .wFpomContainer {
+  max-width: 750px !important;
+}
+
+.wFormContainer textarea {
+  resize: vertical;
+}
+
+.wFormContainer input[type="radio"]+label {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.wFormContainer input[type="checkbox"]:checked+label,
+.wFormContainer input[type="radio"]:checked+label.decline-btn {
+  background-color: #dd0b15;
+}
+
+.wFormContainer .actions {
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.wFormContainer .invisible {
+  visibility: hidden !important;
+}
+
+.wFormContainer .lowercase {
+  text-transform: lowercase !important;
+}
+
+.wFormContainer .supportInfo,
+.wFormContainer .hint {
+  font-size: 0.7em;
+}
+
+.wFormContainer .kalendae.k-floating {
+  border-radius: 0;
+  width: 200px;
+}
+
+.wFormContainer .kalendae .k-calendar,
+.wFormContainer .kalendae .k-title,
+.wFormContainer .kalendae .k-header,
+.wFormContainer .kalendae .k-days {
+  width: 100% !important;
+}
+
+.wFormContainer .kalendae span {
+  width: 14% !important;
+  margin: 0 !important;
+  padding: 4px !important;
+}
+
+.wFormContainer .kalendae .k-days span {
+  height: 1.8em;
+}
+
+.wFormContainer .kalendae .k-btn-close {
+  border: 0 !important;
+}
+
+.wFormContainer div,
+.wFormContainer fieldset {
+  opacity: 1;
+  z-index: 1;
+  transition: opacity 0.6s ease-in-out;
+}
+
+.wFormContainer .offstate {
+  display: block !important;
+  z-index: -100;
+  opacity: 0 !important;
+  max-height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  transition: opacity 0.6s ease-in-out;
+}
+
+.wFormContainer .offstate * {
+  display: none;
+}
+
+.wFormContainer .fold-button {
+  float: right;
+  border: solid 1px #a0a0a0;
+  height: 25px;
+  width: 25px;
+  font-size: 25px;
+  border-radius: 20px;
+  text-align: center;
+  line-height: 23px;
+  margin-top: -45px;
+  cursor: pointer;
+}
+
+.wFormContainer .repeated-accordion {
+  overflow: hidden;
+}
+
+.wFormContainer .accordion-folded {
+  max-height: 100px;
+  -moz-transition: max-height 0.5s;
+  -ms-transition: max-height 0.5s;
+  -o-transition: max-height 0.5s;
+  -webkit-transition: max-height 0.5s;
+  transition: max-height 0.5s;
+}
+
+.wFormContainer .accordion-folded>legend {
+  margin-top: 20px;
+}
+
+.wFormContainer .accordion-folded>.removeSpan {
+  position: absolute;
+}
+
+.wFormContainer a,
+.wFormContainer legend {
+  text-decoration: underline;
+}
+
+.wFormContainer label {
+  min-width: 15%;
+}
+
+.wFormContainer input[type="checkbox"]+label {
+  height: 30px;
+  padding: 5px;
+}
+
+.wFormContainer .errMsg {
+  color: #dd0b15;
+}
+
+@media (min-width: 805px) {
+  .wFormContainer ul[style] {
+    width: 675px !important;
+  }
+}
+
+@media (min-device-width: 1px) and (max-device-width: 400px) {
+  .wFormContainer .phone-element-dial {
+    display: block;
+    width: 100%;
+  }
+  .wFormContainer .phone-element-number {
+    display: block;
+    width: 100%;
+  }
+  .wFormContainer .select-item {
+    display: block !important;
+    width: 100% !important;
+  }
+  .wFormContainer .select-item>label {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    transition: background-color 0.1s ease, color 0.1s ease;
+  }
+  .wFormContainer .select-item:first-of-type {
+    border-top-left-radius: 4px !important;
+    border-top-right-radius: 4px !important;
+    border-bottom-right-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+  }
+  .wFormContainer .select-item:last-of-type {
+    border-bottom-right-radius: 4px !important;
+    border-bottom-left-radius: 4px !important;
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+  }
+  .wFormContainer .select-item:first-of-type>label {
+    border-top-left-radius: 3px !important;
+    border-top-right-radius: 3px !important;
+    border-bottom-right-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+  }
+  .wFormContainer .select-item:last-of-type>label {
+    border-bottom-right-radius: 3px !important;
+    border-bottom-left-radius: 3px !important;
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+  }
+}
+
+.wFormContainer .sv-h1,
+.wFormContainer .sv-h2,
+.wFormContainer .sv-h3,
+.wFormContainer .sv-h4,
+.wFormContainer .sv-h5,
+.wFormContainer .sv-h6,
+.wFormContainer h1,
+.wFormContainer h2,
+.wFormContainer h3,
+.wFormContainer h4,
+.wFormContainer h5,
+.wFormContainer h6,
+.wFormContainer .wFormTitle,
+.wFormContainer .form-title {
+  font-family: "Libre Baskerville", Lora, Georgia, "Times New Roman", Times, serif;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 35px;
+}
+
+.wFormContainer body,
+.wFormContainer legend,
+.wFormContainer .sv-form-control {
+  font-family: "Hind", sans-serif !important;
+  font-size: 16px;
+}
+
+.wFormContainer .wFormContainer,
+.wFormContainer fieldset,
+.wFormContainer fieldset fieldset,
+.wFormContainer .sv-btn,
+.wFormContainer .wFormTitle,
+.wFormContainer .form-title,
+.wFormContainer .alert,
+.wFormContainer .sv-alert,
+.wFormContainer #lse-form-container {
+  border-radius: 0px !important;
+}
+
+.wFormContainer .wFormContainer,
+.wFormContainer fieldset,
+.wFormContainer fieldset fieldset,
+.wFormContainer .wFormTitle,
+.wFormContainer #lse-form-container {
+  border: none;
+}
+
+.wFormContainer .fold-button {
+  line-height: 29px;
+}
+
+.wFormContainer .chosen-choices {
+  border: 9px !important;
+  box-shadow: none !important;
+}
+
+.wFormContainer .chosen-container>ul {
+  border-radius: 0px !important;
+}
+
+.wFormContainer .sv-form-control,
+.wFormContainer .chosen-choices {
+  border-radius: 0px !important;
+  border: solid #ccc;
+  border-width: 0px 0px 0px 5px;
+  box-shadow: none !important;
+  transition: all ease 200ms;
+  box-sizing: border-box !important;
+  padding: 5px 0px 5px 10px;
+  line-height: 2.5rem !important;
+  min-height: 40px !important;
+  background-color: whitesmoke;
+}
+
+.wFormContainer .sv-form-control:focus {
+  border: 2px #59a6c8 solid !important;
+  box-shadow: none;
+  background-color: white !important;
+  padding: 3px 0px 4px 13px !important;
+}
+
+.wFormContainer .sv-row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.wFormContainer .sv-form-group {
+  background-color: white !important;
+  border: 0px !important;
+  padding-left: 0px !important;
+  margin-left: 0px !important;
+  padding-right: 0px !important;
+  margin-right: 0px !important;
+  margin-top: 15px;
+}
+
+.wFormContainer fieldset fieldset,
+.wFormContainer fieldset>div>fieldset {
+  border: 1px solid #ccc !important;
+  background-color: white !important;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+}
+
+.wFormContainer .htmlContent {
+  padding: 0px;
+}
+
+.wFormContainer .duplicateLink {
+  padding: 10px;
+}
+
+.wFormContainer .duplicateLink:before {
+  content: "+ ";
+}
+
+.wFormContainer .removeLink:before {
+  content: "- ";
+}
+
+.wFormContainer .select-item>label {
+  border-radius: 0px !important;
+}
+
+.wFormContainer .supportInfo,
+.wFormContainer .hint {
+  font-size: 0.9em;
+}
+
+.wFormContainer label,
+.wFormContainer label>* {
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.wFormContainer label>span.RequiredField,
+.wFormContainer .requiredField {
+  text-decoration-color: white !important;
+}
+
+.wFormContainer a {
+  text-decoration-color: #dd0b15 !important;
+  color: #dd0b15 !important;
+}
+
+.wFormContainer .ui-menu-item {
+  margin-left: -2px !important;
+  margin-right: -2px !important;
+}
+
+.wFormContainer .ui-menu-item>a {
+  color: black !important;
+}
+
+.wFormContainer .select-item>label {
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.wFormContainer legend {
+  font-size: 1.6em;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.wFormContainer .ui-corner-all {
+  border-radius: 0px !important;
+}
+
+.wFormContainer input[type="file"]+img {
+  margin: 15px;
+}
+
+.wFormContainer .ui-state-hover {
+  border: 1px solid #ccc !important;
+  background: #f5f5f5 !important;
+}
+
+.wFormContainer .sv-btn {
+  border: 0px;
+  transition: all 0.1s ease-in-out;
+  cursor: pointer;
+}
+
+.wFormContainer .sv-btn-default {
+  background-color: #f5f5f5;
+  border: 2px solid white;
+}
+
+.wFormContainer .sv-btn-primary {
+  background-color: #dd0b15;
+  color: white !important;
+  border: 2px solid white;
+}
+
+.wFormContainer .sv-btn-default:hover {
+  border: 2px solid white;
+}
+
+.wFormContainer .sv-btn-default:hover>* {
+  cursor: pointer;
+}
+
+.wFormContainer .chosen-choices>.search-choice {
+  background: #f5f5f5 !important;
+  border-radius: 0px !important;
+}
+
+.wFormContainer .full {
+  background-color: #dd0b15 !important;
+  color: white;
+  transition: background-color 0.4s ease-out, color 0.4s ease-out;
+}
+
+.wFormContainer .expandAll {
+  float: right;
+  cursor: pointer;
+  visibility: hidden;
+}
+
+.wFormContainer .errors-badge {
+  position: absolute;
+  color: white;
+  font-size: 14px;
+  border: 1px solid red;
+  padding: 0px 10px;
+  border-radius: 100px;
+  background: red;
+  margin-left: 100px;
+  height: 20px;
+}
+
+.wFormContainer .record-picker-result-container {
+  margin-top: 2px;
+  border: 1px solid grey;
+  padding: 5px;
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+.wFormContainer .record-picker-result-container {
+  margin-top: 2px;
+  border: 1px solid grey;
+  padding: 5px;
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+.wFormContainer .wfPage,
+.wFormContainer .wfHideSubmit {
+  display:none;
+}
+
+.wFormContainer .pageSection h4 {
+  text-align:center;
+  margin:20px;
+  font-family:'Roboto';
+  font-style:initial;
+  text-decoration:underline;
+}
+
+
+.wFormContainer .record-picker-result-item {
+  border-bottom: 1px solid #f5f5f5;
+  min-height: 40px;
+  padding: 5px;
+}
+
+.wFormContainer .record-picker-result-item:hover {
+  background: #f5f5f5;
+  cursor: pointer;
+}
+
+.wFormContainer .record-picker-result-item:hover {
+  background: #f5f5f5;
+  cursor: pointer;
+}
