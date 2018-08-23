@@ -415,6 +415,8 @@ $(document).ready(function () {
     })();
 
     //styles radios and check boxes
+    
+    /*
     var $span = $("span.choices.vertical > span.oneChoice");
     $span.replaceWith(function () {
         return $('<div/>', {
@@ -429,6 +431,8 @@ $(document).ready(function () {
             html: this.innerHTML
         });
     });
+    
+    */
 
     //Adds Custom Classes/data-attributes
     $('.wFormContainer').addClass("sv-container");
