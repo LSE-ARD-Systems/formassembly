@@ -1,5 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Hind);
-@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i);
+@import url(
+  https://fonts.googleapis.com/css?family=Libre+Baskerville:400,
+  400i
+);
 .wFormWebPage {
   padding: 20px;
 }
@@ -79,7 +82,7 @@
   padding-top: 10px;
 }
 
-.wFormContainer fieldset fieldset>legend {
+.wFormContainer fieldset fieldset > legend {
   font-size: 1.3em;
   float: right;
 }
@@ -94,7 +97,7 @@
   margin-top: 20px;
 }
 
-.wFormContainer fieldset>div>fieldset {
+.wFormContainer fieldset > div > fieldset {
   margin-left: 1.4em;
   margin-right: 1.4em;
 }
@@ -150,15 +153,15 @@
 }
 
 .wFormContainer li,
-.wFormContainer li>a {
+.wFormContainer li > a {
   cursor: pointer !important;
 }
 
-.wFormContainer .select-item>input {
+.wFormContainer .select-item > input {
   display: none;
 }
 
-.wFormContainer .select-item>label {
+.wFormContainer .select-item > label {
   padding: 0px;
   margin: 0;
   display: block;
@@ -166,12 +169,12 @@
   word-wrap: break-word !important;
 }
 
-.wFormContainer .select-item:first-of-type>label {
+.wFormContainer .select-item:first-of-type > label {
   border-top-left-radius: 3px;
   border-bottom-left-radius: 3px;
 }
 
-.wFormContainer .select-item:last-of-type>label {
+.wFormContainer .select-item:last-of-type > label {
   border-top-right-radius: 3px;
   border-bottom-right-radius: 3px;
 }
@@ -181,39 +184,46 @@
   margin: auto;
 }
 
-.wFormContainer input[type="checkbox"]:checked+label,
-.wFormContainer input[type="radio"]:checked+label {
+.wFormContainer input[type="checkbox"]:checked + label,
+.wFormContainer input[type="radio"]:checked + label {
   color: white;
   background-color: #227c0e;
 }
 
+.wFormContainer .choices {
+  display: flex;
+  flex-grow: 1;
+}
+
+.wFormContainer .choices .oneChoice {
+  width: 100%;
+}
+
 .wFormContainer .choices .oneChoice > input {
-  display:none;
+  display: none;
 }
 
 .wFormContainer .choices .oneChoice > label {
-  position: relative;
   top: 0px;
   left: 0px;
-  height: 26px;
   text-align: center;
-  display:block;
+  display: block;
   transition: background-color 0.2s ease, color 0.2s ease;
   word-wrap: break-word !important;
-  height: 30px;
-  padding: 0px;
   position: relative;
   width: 100% !important;
   display: inline-block;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
-  border: 2px solid lightgray;
   margin-left: 0px !important;
-  cursor:pointer;
+  cursor: pointer;
   background-color: #f5f5f5;
   text-decoration: none;
   font-weight: 400;
+  height: auto;
+  padding: 8px;
+  border: 2px solid white;
 }
 
 .wFormContainer .wFpomContainer {
@@ -224,13 +234,13 @@
   resize: vertical;
 }
 
-.wFormContainer input[type="radio"]+label {
+.wFormContainer input[type="radio"] + label {
   padding-top: 8px;
   padding-bottom: 8px;
 }
 
-.wFormContainer input[type="checkbox"]:checked+label,
-.wFormContainer input[type="radio"]:checked+label.decline-btn {
+.wFormContainer input[type="checkbox"]:checked + label,
+.wFormContainer input[type="radio"]:checked + label.decline-btn {
   background-color: #dd0b15;
 }
 
@@ -326,11 +336,11 @@
   transition: max-height 0.5s;
 }
 
-.wFormContainer .accordion-folded>legend {
+.wFormContainer .accordion-folded > legend {
   margin-top: 20px;
 }
 
-.wFormContainer .accordion-folded>.removeSpan {
+.wFormContainer .accordion-folded > .removeSpan {
   position: absolute;
 }
 
@@ -343,7 +353,7 @@
   min-width: 15%;
 }
 
-.wFormContainer input[type="checkbox"]+label {
+.wFormContainer input[type="checkbox"] + label {
   height: 30px;
   padding: 5px;
 }
@@ -371,7 +381,7 @@
     display: block !important;
     width: 100% !important;
   }
-  .wFormContainer .select-item>label {
+  .wFormContainer .select-item > label {
     padding-top: 7px;
     padding-bottom: 7px;
     transition: background-color 0.1s ease, color 0.1s ease;
@@ -388,13 +398,13 @@
     border-top-left-radius: 0px !important;
     border-top-right-radius: 0px !important;
   }
-  .wFormContainer .select-item:first-of-type>label {
+  .wFormContainer .select-item:first-of-type > label {
     border-top-left-radius: 3px !important;
     border-top-right-radius: 3px !important;
     border-bottom-right-radius: 0px !important;
     border-bottom-left-radius: 0px !important;
   }
-  .wFormContainer .select-item:last-of-type>label {
+  .wFormContainer .select-item:last-of-type > label {
     border-bottom-right-radius: 3px !important;
     border-bottom-left-radius: 3px !important;
     border-top-left-radius: 0px !important;
@@ -416,7 +426,8 @@
 .wFormContainer h6,
 .wFormContainer .wFormTitle,
 .wFormContainer .form-title {
-  font-family: "Libre Baskerville", Lora, Georgia, "Times New Roman", Times, serif;
+  font-family: "Libre Baskerville", Lora, Georgia, "Times New Roman", Times,
+    serif;
   font-weight: 500;
   font-style: italic;
   font-size: 35px;
@@ -458,7 +469,7 @@
   box-shadow: none !important;
 }
 
-.wFormContainer .chosen-container>ul {
+.wFormContainer .chosen-container > ul {
   border-radius: 0px !important;
 }
 
@@ -499,7 +510,7 @@
 }
 
 .wFormContainer fieldset fieldset,
-.wFormContainer fieldset>div>fieldset {
+.wFormContainer fieldset > div > fieldset {
   border: 1px solid #ccc !important;
   background-color: white !important;
   margin-left: 0px;
@@ -523,7 +534,7 @@
   content: "- ";
 }
 
-.wFormContainer .select-item>label {
+.wFormContainer .select-item > label {
   border-radius: 0px !important;
 }
 
@@ -533,12 +544,12 @@
 }
 
 .wFormContainer label,
-.wFormContainer label>* {
+.wFormContainer label > * {
   font-weight: 500;
   text-decoration: underline;
 }
 
-.wFormContainer label>span.RequiredField,
+.wFormContainer label > span.RequiredField,
 .wFormContainer .requiredField {
   text-decoration-color: white !important;
 }
@@ -553,11 +564,11 @@
   margin-right: -2px !important;
 }
 
-.wFormContainer .ui-menu-item>a {
+.wFormContainer .ui-menu-item > a {
   color: black !important;
 }
 
-.wFormContainer .select-item>label {
+.wFormContainer .select-item > label {
   text-decoration: none;
   font-weight: 400;
 }
@@ -572,7 +583,7 @@
   border-radius: 0px !important;
 }
 
-.wFormContainer input[type="file"]+img {
+.wFormContainer input[type="file"] + img {
   margin: 15px;
 }
 
@@ -602,11 +613,11 @@
   border: 2px solid white;
 }
 
-.wFormContainer .sv-btn-default:hover>* {
+.wFormContainer .sv-btn-default:hover > * {
   cursor: pointer;
 }
 
-.wFormContainer .chosen-choices>.search-choice {
+.wFormContainer .chosen-choices > .search-choice {
   background: #f5f5f5 !important;
   border-radius: 0px !important;
 }
@@ -653,17 +664,16 @@
 
 .wFormContainer .wfPage,
 .wFormContainer .wfHideSubmit {
-  display:none;
+  display: none;
 }
 
 .wFormContainer .pageSection h4 {
-  text-align:center;
-  margin:20px;
-  font-family:'Roboto';
-  font-style:initial;
-  text-decoration:underline;
+  text-align: center;
+  margin: 20px;
+  font-family: "Roboto";
+  font-style: initial;
+  text-decoration: underline;
 }
-
 
 .wFormContainer .record-picker-result-item {
   border-bottom: 1px solid #f5f5f5;
