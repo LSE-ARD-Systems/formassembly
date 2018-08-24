@@ -1,0 +1,13 @@
+.wFormContainer .logo {
+  display:none;
+}
+
+body {
+  background:transparent;
+  
+}
+.wFormContainer{
+  background:white;
+  border:20px white solid;
+  margin-top:10px;
+}
