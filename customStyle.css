@@ -687,3 +687,14 @@
   background: #f5f5f5;
   cursor: pointer;
 }
+
+.wFormContainer .sv-form-control[data-wforms-nooverwrite="disabled"] {
+  border:0 !important;
+}
+
+.wFormContainer .sv-form-control[data-wforms-nooverwrite="disabled"]:focus {
+  border:0 !important;
+  box-shadow: none;
+  background-color: whitesmoke !important;
+  padding: 10px !important;
+}
