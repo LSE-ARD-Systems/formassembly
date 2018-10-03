@@ -259,29 +259,29 @@
   font-size: 0.7em;
 }
 
-.wFormContainer .kalendae.k-floating {
+.kalendae.k-floating {
   border-radius: 0;
   width: 200px;
 }
 
-.wFormContainer .kalendae .k-calendar,
-.wFormContainer .kalendae .k-title,
-.wFormContainer .kalendae .k-header,
-.wFormContainer .kalendae .k-days {
+.kalendae .k-calendar,
+.kalendae .k-title,
+.kalendae .k-header,
+.kalendae .k-days {
   width: 100% !important;
 }
 
-.wFormContainer .kalendae span {
+.kalendae span {
   width: 14% !important;
   margin: 0 !important;
   padding: 4px !important;
 }
 
-.wFormContainer .kalendae .k-days span {
+.kalendae .k-days span {
   height: 1.8em;
 }
 
-.wFormContainer .kalendae .k-btn-close {
+.kalendae .k-btn-close {
   border: 0 !important;
 }
 
