@@ -572,6 +572,7 @@ $(document).ready(function () {
     setTimeout(function () {
         $('input[type="text"]')
             .each(function () {
+    try {
                 var fieldTitle = $(this)
                     .attr('title')
                     .toUpperCase();
@@ -581,6 +582,9 @@ $(document).ready(function () {
                         $(this).val($(this).val().toLowerCase());
                     });
                 }
+    }
+    catch(err) {console.log(err);}
+    }
             });
     }, 600);
 
