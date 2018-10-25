@@ -584,7 +584,7 @@ $(document).ready(function () {
                 }
     }
     catch(err) {console.log(err);}
-    }
+    
             });
     }, 600);
 
