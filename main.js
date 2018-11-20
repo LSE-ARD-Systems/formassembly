@@ -126,6 +126,9 @@ function showRecordPickerOptions(field) {
         .on('click', '.record-picker-result-item', function () {
             $(recordPickerData[field].originalField).val(this.id);
             $(recordPickerData[field].controllingField).val(this.textContent.replace(/^\s\s*/, '').replace(/\s\s*$/, ''));
+            if(recordPickerData[field].outputDisplayField){
+                $(recordPickerData[field].outputDisplayField).val(this.textContent.replace(/^\s\s*/, '').replace(/\s\s*$/, ''));
+            }
             hideRecordPickerOptions(field);
         });
 }
@@ -137,10 +140,16 @@ function hideRecordPickerOptions(field) {
     }
 }
 
-function makeRecordPicker(field, filterCriteria, displayField) {
+
+// FormAssembly Field Id , Form_Filter_Criteria__mdt name, Salesforce Field to display to user, FormAssembly field id to output display field value
+function makeRecordPicker(field, filterCriteria, displayField, outputDisplayFieldId) {
 
     let originalField = document.getElementById(field);
     let clone = originalField.cloneNode(true);
+    let outputDisplayField;
+    if(outputDisplayFieldId){
+        outputDisplayField = document.getElementById(outputDisplayFieldId);
+    }
 
     recordPickerData[field] = {
         originalField: originalField,
@@ -148,7 +157,9 @@ function makeRecordPicker(field, filterCriteria, displayField) {
         searchValue: '',
         searchResults: undefined,
         timeout: 500,
-        displayField: displayField
+        displayField: displayField,
+        outputDisplayField : outputDisplayField
+
     }
     clone.id = clone.id + '_clone';
     $(clone).attr('name', clone.id + '_clone');
