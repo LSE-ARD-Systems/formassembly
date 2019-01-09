@@ -581,11 +581,14 @@ $(document).ready(function () {
 
     //sets fields which contain "Email address" to lower case.
     setTimeout(function () {
+        var fieldTitle = "";
         $('input[type="text"]')
             .each(function () {
     try {
+        fieldTitle = $(this).attr('title');
+        if (typeof fieldTitle === "undefined") {fieldTitle = "";}
  if (fieldTitle.indexOf('EMAIL') >= 0) {
-                var fieldTitle = $(this).attr('title').toUpperCase();
+                
 
                     $(this).addClass('lowercase');
                     $(this).on('keyup', function () {
