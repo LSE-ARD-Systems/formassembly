@@ -584,10 +584,9 @@ $(document).ready(function () {
         $('input[type="text"]')
             .each(function () {
     try {
-                var fieldTitle = $(this)
-                    .attr('title')
-                    .toUpperCase();
-                if (fieldTitle.indexOf('EMAIL') >= 0) {
+ if (fieldTitle.indexOf('EMAIL') >= 0) {
+                var fieldTitle = $(this).attr('title').toUpperCase();
+
                     $(this).addClass('lowercase');
                     $(this).on('keyup', function () {
                         $(this).val($(this).val().toLowerCase());
