@@ -1,32 +1,3 @@
-
-Skip to content
-
-Pull requests
-Issues
-Marketplace
-Explore
-
-@chrisabralse
-
-1
-0
-
-0
-
-LSE-ARD-Systems/formassembly
-Code
-Issues 0
-Pull requests 0
-Projects 0
-Wiki
-Insights
-formassembly/customStyle.css
-ac7325d 2 hours ago
-@chrisabralse chrisabralse added more spacing to the Legend
-@chrisabralse
-@LSE-ARD-Systems
-@JDGLSE
-742 lines (627 sloc) 14.2 KB
 @import url('https://fonts.googleapis.com/css?family=Hind');
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
 .wFormWebPage {
@@ -770,19 +741,3 @@ box-shadow: none;
 background-color: whitesmoke !important;
 padding: 10px !important;
 }
-
-© 2019 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-
-Press h to open a hovercard with more details.
