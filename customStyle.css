@@ -374,6 +374,11 @@ background:white;
     display: block;
     width: 100%;
   }
+
+  .wFormContainer .wFormTitle {
+      font-size:2.5em !important;
+  }
+
   .wFormContainer .phone-element-number {
     display: block;
     width: 100%;
