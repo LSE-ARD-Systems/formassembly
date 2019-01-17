@@ -546,6 +546,7 @@ background:white;
 .wFormContainer label > * {
   font-weight: 500;
   text-decoration: underline;
+  text-decoration-color: gray;
 }
 
 .wFormContainer label > span.RequiredField,
