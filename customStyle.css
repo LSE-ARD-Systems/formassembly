@@ -5,6 +5,7 @@
   border:1px solid lightgray;
 border-radius:3px;
 background:white;
+
 }
 
 .wFormContainer {
@@ -20,6 +21,7 @@ background:white;
   /* Opera < 12.1 */
   animation: fadein 1.5s;
   margin-top: 70px;
+  font-family:"Roboto",sans-serif;
 }
 
 @keyframes fadein {
@@ -50,10 +52,10 @@ background:white;
 }
 
 @-ms-keyframes fadein {
-  .wFormContainer from {
+  from {
     opacity: 0;
   }
-  .wFormContainer to {
+   to {
     opacity: 1;
   }
 }
@@ -73,7 +75,7 @@ background:white;
 }
 
 .wFormContainer .RequiredField {
-  color: #fe6263;
+  color: #F43131;
 }
 
 .wFormContainer legend {
@@ -241,7 +243,7 @@ background:white;
 
 .wFormContainer input[type="checkbox"]:checked + label,
 .wFormContainer input[type="radio"]:checked + label.decline-btn {
-  background-color: #dd0b15;
+  background-color: #F43131;
 }
 
 .wFormContainer .actions {
@@ -359,7 +361,7 @@ background:white;
 }
 
 .wFormContainer .errMsg {
-  color: #dd0b15;
+  color: #F43131;
 }
 
 @media (min-width: 805px) {
@@ -443,7 +445,6 @@ background:white;
 .wFormContainer .wFormContainer,
 .wFormContainer fieldset,
 .wFormContainer fieldset fieldset,
-.wFormContainer .sv-btn,
 .wFormContainer .wFormTitle,
 .wFormContainer .form-title,
 .wFormContainer .alert,
@@ -555,8 +556,13 @@ background:white;
 }
 
 .wFormContainer a {
-  text-decoration-color: #dd0b15 !important;
-  color: #dd0b15 !important;
+  text-decoration-color: #55ACEE !important;
+  color: #55ACEE !important;
+}
+
+.wFormContainer a:visited {
+    text-decoration-color: #5C305E !important;
+    color: #5C305E !important;
 }
 
 .wFormContainer .ui-menu-item {
@@ -592,25 +598,58 @@ background:white;
   background: #f5f5f5 !important;
 }
 
-.wFormContainer .sv-btn {
-  border: 0px;
-  transition: all 0.1s ease-in-out;
-  cursor: pointer;
-}
 
 .wFormContainer .sv-btn-default {
-  background-color: #f5f5f5;
-  border: 2px solid white;
+    background: #fff;
+    color: #f43131;
+    height: 50px;
+    line-height: 48px;
+    border-radius: 2px;
+    text-align: center;
+    text-shadow: none;
+    position: relative;
+    cursor: default;
+    transition: all ease 0.3s;
+    overflow: hidden;
+    z-index: 1;
+    padding: 0 20px;
+    font-size: 14px;
+    font-size: .875rem;
+    box-sizing: border-box;
+    border: 1px solid #f43131;
+    cursor: pointer;
 }
 
 .wFormContainer .sv-btn-primary {
-  background-color: #dd0b15;
-  color: white !important;
-  border: 2px solid white;
+    background: #f43131;
+    border-color: #f43131;
+
+    color: #f5f5f5;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 2px;
+    text-align: center;
+    text-shadow: none;
+    position: relative;
+    cursor: default;
+    transition: all ease 0.3s;
+    overflow: hidden;
+    z-index: 1;
+    padding: 0 20px;
+    font-size: 14px;
+    font-size: .875rem;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.wFormContainer .sv-btn-primary:hover {
+    color: #f5f5f5;
+    background: #b71c1c;
 }
 
 .wFormContainer .sv-btn-default:hover {
-  border: 2px solid white;
+    color: #f5f5f5;
+    background: #f43131;
 }
 
 .wFormContainer .sv-btn-default:hover > * {
@@ -623,7 +662,7 @@ background:white;
 }
 
 .wFormContainer .full {
-  background-color: #dd0b15 !important;
+  background-color: #F43131 !important;
   color: white;
   transition: background-color 0.4s ease-out, color 0.4s ease-out;
 }
@@ -638,10 +677,10 @@ background:white;
   position: absolute;
   color: white;
   font-size: 14px;
-  border: 1px solid red;
+  border: 1px solid #F43131;
   padding: 0px 10px;
   border-radius: 100px;
-  background: red;
+  background: #F43131;
   margin-left: 100px;
   height: 20px;
 }
