@@ -1,9 +1,7 @@
-@import url(https://fonts.googleapis.com/css?family=Hind);
-@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i);
+@import url('https://fonts.googleapis.com/css?family=Hind');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
 .wFormWebPage {
   padding: 20px;
-  border:1px solid lightgray;
-border-radius:3px;
 background:white;
 
 }
@@ -115,20 +113,16 @@ background:white;
 }
 
 .wFormContainer .wFormTitle {
-  margin-left: -15px;
-  margin-right: -15px;
-  margin-top: 0;
-  margin-bottom: 0;
-  padding: 20px;
-  background-color: #f5f5f5;
-  border-top-left-radius: 4px !important;
-  border-top-right-radius: 4px !important;
+  margin-top: 0px;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom:2px solid whitesmoke !important;
+  font-style:normal;
 }
 
 .wFormContainer .logo {
   text-align: left;
   margin-top: -75px;
-  margin-left: -15px;
   padding-bottom: 15px;
 }
 
@@ -262,7 +256,11 @@ background:white;
 
 .wFormContainer .supportInfo,
 .wFormContainer .hint {
-  font-size: 0.7em;
+  font-size: 0.8em;
+}
+
+.wFormContainer .field-hint-inactive {
+    padding:2px;
 }
 
 .kalendae.k-floating {
@@ -429,11 +427,9 @@ background:white;
 .wFormContainer h6,
 .wFormContainer .wFormTitle,
 .wFormContainer .form-title {
-  font-family: "Libre Baskerville", Lora, Georgia, "Times New Roman", Times,
-    serif;
-  font-weight: 500;
-  font-style: italic;
-  font-size: 35px;
+  font-weight: 700;
+  font-size: 3em;
+  font-family:"Roboto", sans-serif;
 }
 
 .wFormContainer body,
@@ -540,10 +536,6 @@ background:white;
   border-radius: 0px !important;
 }
 
-.wFormContainer .supportInfo,
-.wFormContainer .hint {
-  font-size: 0.9em;
-}
 
 .wFormContainer label,
 .wFormContainer label > * {
