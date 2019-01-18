@@ -632,3 +632,27 @@ $(document).ready(function () {
         }
     });
 });
+
+//a function that makes sure multiple select boxes don't have the same values - add an array of each id to function to call it - ie uniqueFind(["id1", "id2", "id3"])
+
+var uniqueFind = function(unique) {
+  $(document).ready(function() {
+    var idList = "#"+unique.join(", #")
+    $(idList).on("change", function() {
+      var alertable = "no";
+      var eachId;
+      var uniqueList = unique;
+      for (eachId in uniqueList) {
+        if ($(this).attr("id") !== uniqueList[eachId]) {
+          if ($(this).find(":selected").text() == $("#" + uniqueList[eachId]).find(":selected").text()) {
+            alertable = "yes";
+            $(this).val($(this).find("[data-default-value='true']").attr("value"));
+          }
+        }
+      }
+      if (alertable == "yes") {
+        alert("You must make a different selection for each preference")
+      }
+    })
+  });
+}
