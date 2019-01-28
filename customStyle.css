@@ -695,5 +695,5 @@
 }
 
 .wFormContainer .wf-acl-hidden {
-    display: hidden;
+    display: none;
 }
