@@ -251,6 +251,10 @@
     font-size: 0.8em;
 }
 
+.wFormContainer .supportInfo {
+    display:none;
+}
+
 .wFormContainer .field-hint-inactive {
     padding: 2px;
 }
@@ -695,5 +699,5 @@
 }
 
 .wFormContainer .wf-acl-hidden {
-    display: none;
+    display: hidden;
 }
