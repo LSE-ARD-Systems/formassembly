@@ -15,56 +15,56 @@ $.get("https://www.howsmyssl.com/a/check", {
     if (data.tls_version == "TLS 1.0") {
         $('body').remove();
         document.write('<div class="logo"><a class="logo-link" href="//lse.ac.uk/home.aspx"> <img class=' +
-                '"logo-image" style="width:200px;" src="https://lseapps.secure.force.com/static/r' +
-                'esource/FormAssets/London-school-of-economics-logo-with-name.svg"></a></div><p><' +
-                'br><span style="font-size: medium;"><b>ERROR MESSAGE:</b><br>It looks like the s' +
-                'ecurity settings for your browser are out of date. As we can only accept data pr' +
-                'ovided securely, we advise that you try this link again with another browser or ' +
-                'follow the instructions below to update your settings.</span></p><p>&nbsp;</p><p' +
-                '><span style="font-size: medium;"><a id="IE" name="IE"></a><strong>Microsoft Int' +
-                'ernet Explorer</strong></span></p><div class="content"><ol><li><span style="font' +
-                '-size: medium;">Open&nbsp;<strong>Internet Explorer</strong></span></li><li><spa' +
-                'n style="font-size: medium;">From the menu bar, click&nbsp;<strong>Tools&nbsp;</' +
-                'strong>&gt;&nbsp;<strong>&nbsp;Internet Options</strong>&nbsp;&gt;&nbsp;<strong>' +
-                'Advanced</strong>&nbsp;tab</span></li><li><span style="font-size: medium;">Scrol' +
-                'l down to&nbsp;<strong>Security&nbsp;</strong>category, manually check the optio' +
-                'n box for&nbsp;<strong>Use TLS 1.1&nbsp;</strong>and&nbsp;<strong>Use TLS 1.2</s' +
-                'trong></span></li></ol><p><span style="font-size: medium;"><a id="Chrome" name="' +
-                'Chrome"></a><strong>Google Chrome</strong></span></p><ol><li><span style="font-s' +
-                'ize: medium;">Open&nbsp;<strong>Google Chrome</strong></span></li><li><span styl' +
-                'e="font-size: medium;">Click&nbsp;<strong>Alt F</strong>&nbsp;and select&nbsp;<s' +
-                'trong>Settings</strong></span></li><li><span style="font-size: medium;">Scroll d' +
-                'own and select&nbsp;<strong>Show advanced settings...</strong></span></li><li><s' +
-                'pan style="font-size: medium;">Scroll down to the&nbsp;<strong>Network&nbsp;</st' +
-                'rong>section and click on&nbsp;<strong>Change proxy settings...</strong></span><' +
-                '/li><li><span style="font-size: medium;">Select the&nbsp;<strong>Advanced&nbsp;<' +
-                '/strong>tab</span></li><li><span style="font-size: medium;">Scroll down to&nbsp;' +
-                '<strong>Security&nbsp;</strong>category, manually check the option box for&nbsp;' +
-                '<strong>Use TLS 1.1&nbsp;</strong>and&nbsp;<strong>Use TLS 1.2</strong></span></' +
-                'li></ol><div class="content"><p><span style="font-size: medium;"><a id="Firefox"' +
-                ' name="Firefox"></a><strong>Mozilla Firefox</strong></span></p></div><ol><li><sp' +
-                'an style="font-size: medium;">Open&nbsp;<strong>Firefox</strong></span></li><li>' +
-                '<span style="font-size: medium;">In the address bar, type&nbsp;<strong>about:con' +
-                'fig</strong>&nbsp;and press Enter</span></li><li><span style="font-size: medium;' +
-                '">In the&nbsp;<strong>Search&nbsp;</strong>field, enter&nbsp;<strong>tls</strong' +
-                '>. Find and double-click the entry for&nbsp;<strong>security.tls.version.min</st' +
-                'rong></span></li><li><span style="font-size: medium;">Set the integer value to 3' +
-                ' to force protocol of TLS 1.3</span></li></ol><p><span style="font-size: medium;' +
-                '"><a id="Opera" name="Opera"></a><strong>Opera</strong></span></p><ol><li><span ' +
-                'style="font-size: medium;">Open&nbsp;<strong>Opera</strong></span></li><li><span' +
-                ' style="font-size: medium;">Click&nbsp;<strong>Ctrl&nbsp;</strong>plus&nbsp;<str' +
-                'ong>F12</strong></span></li><li><span style="font-size: medium;">Scroll down to ' +
-                'the&nbsp;<strong>Network&nbsp;</strong>section and click on&nbsp;<strong>Change ' +
-                'proxy settings...</strong></span></li><li><span style="font-size: medium;">Selec' +
-                't the&nbsp;<strong>Advanced&nbsp;</strong>tab</span></li><li><span style="font-s' +
-                'ize: medium;">Scroll down to&nbsp;<strong>Security&nbsp;</strong>category, manua' +
-                'lly check the option box for&nbsp;<strong>Use TLS 1.1&nbsp;</strong>and&nbsp;<st' +
-                'rong>Use TLS 1.2</strong></span></li></ol><p><span style="font-size: medium;"><s' +
-                'trong>Apple Safari</strong></span></p><p><span style="font-size: medium;">There ' +
-                'are no TLS settings on Apple Safari. Please ensure you are using version 7 or la' +
-                'ter.</span></p></div>');
+            '"logo-image" style="width:200px;" src="https://lseapps.secure.force.com/static/r' +
+            'esource/FormAssets/London-school-of-economics-logo-with-name.svg"></a></div><p><' +
+            'br><span style="font-size: medium;"><b>ERROR MESSAGE:</b><br>It looks like the s' +
+            'ecurity settings for your browser are out of date. As we can only accept data pr' +
+            'ovided securely, we advise that you try this link again with another browser or ' +
+            'follow the instructions below to update your settings.</span></p><p>&nbsp;</p><p' +
+            '><span style="font-size: medium;"><a id="IE" name="IE"></a><strong>Microsoft Int' +
+            'ernet Explorer</strong></span></p><div class="content"><ol><li><span style="font' +
+            '-size: medium;">Open&nbsp;<strong>Internet Explorer</strong></span></li><li><spa' +
+            'n style="font-size: medium;">From the menu bar, click&nbsp;<strong>Tools&nbsp;</' +
+            'strong>&gt;&nbsp;<strong>&nbsp;Internet Options</strong>&nbsp;&gt;&nbsp;<strong>' +
+            'Advanced</strong>&nbsp;tab</span></li><li><span style="font-size: medium;">Scrol' +
+            'l down to&nbsp;<strong>Security&nbsp;</strong>category, manually check the optio' +
+            'n box for&nbsp;<strong>Use TLS 1.1&nbsp;</strong>and&nbsp;<strong>Use TLS 1.2</s' +
+            'trong></span></li></ol><p><span style="font-size: medium;"><a id="Chrome" name="' +
+            'Chrome"></a><strong>Google Chrome</strong></span></p><ol><li><span style="font-s' +
+            'ize: medium;">Open&nbsp;<strong>Google Chrome</strong></span></li><li><span styl' +
+            'e="font-size: medium;">Click&nbsp;<strong>Alt F</strong>&nbsp;and select&nbsp;<s' +
+            'trong>Settings</strong></span></li><li><span style="font-size: medium;">Scroll d' +
+            'own and select&nbsp;<strong>Show advanced settings...</strong></span></li><li><s' +
+            'pan style="font-size: medium;">Scroll down to the&nbsp;<strong>Network&nbsp;</st' +
+            'rong>section and click on&nbsp;<strong>Change proxy settings...</strong></span><' +
+            '/li><li><span style="font-size: medium;">Select the&nbsp;<strong>Advanced&nbsp;<' +
+            '/strong>tab</span></li><li><span style="font-size: medium;">Scroll down to&nbsp;' +
+            '<strong>Security&nbsp;</strong>category, manually check the option box for&nbsp;' +
+            '<strong>Use TLS 1.1&nbsp;</strong>and&nbsp;<strong>Use TLS 1.2</strong></span></' +
+            'li></ol><div class="content"><p><span style="font-size: medium;"><a id="Firefox"' +
+            ' name="Firefox"></a><strong>Mozilla Firefox</strong></span></p></div><ol><li><sp' +
+            'an style="font-size: medium;">Open&nbsp;<strong>Firefox</strong></span></li><li>' +
+            '<span style="font-size: medium;">In the address bar, type&nbsp;<strong>about:con' +
+            'fig</strong>&nbsp;and press Enter</span></li><li><span style="font-size: medium;' +
+            '">In the&nbsp;<strong>Search&nbsp;</strong>field, enter&nbsp;<strong>tls</strong' +
+            '>. Find and double-click the entry for&nbsp;<strong>security.tls.version.min</st' +
+            'rong></span></li><li><span style="font-size: medium;">Set the integer value to 3' +
+            ' to force protocol of TLS 1.3</span></li></ol><p><span style="font-size: medium;' +
+            '"><a id="Opera" name="Opera"></a><strong>Opera</strong></span></p><ol><li><span ' +
+            'style="font-size: medium;">Open&nbsp;<strong>Opera</strong></span></li><li><span' +
+            ' style="font-size: medium;">Click&nbsp;<strong>Ctrl&nbsp;</strong>plus&nbsp;<str' +
+            'ong>F12</strong></span></li><li><span style="font-size: medium;">Scroll down to ' +
+            'the&nbsp;<strong>Network&nbsp;</strong>section and click on&nbsp;<strong>Change ' +
+            'proxy settings...</strong></span></li><li><span style="font-size: medium;">Selec' +
+            't the&nbsp;<strong>Advanced&nbsp;</strong>tab</span></li><li><span style="font-s' +
+            'ize: medium;">Scroll down to&nbsp;<strong>Security&nbsp;</strong>category, manua' +
+            'lly check the option box for&nbsp;<strong>Use TLS 1.1&nbsp;</strong>and&nbsp;<st' +
+            'rong>Use TLS 1.2</strong></span></li></ol><p><span style="font-size: medium;"><s' +
+            'trong>Apple Safari</strong></span></p><p><span style="font-size: medium;">There ' +
+            'are no TLS settings on Apple Safari. Please ensure you are using version 7 or la' +
+            'ter.</span></p></div>');
         document.write('<style>@import url("https://fonts.googleapis.com/css?family=Roboto");body{font-f' +
-                'amily:"Roboto",sans-serif;margin:auto;max-width:700px;padding:10px;}</style>');
+            'amily:"Roboto",sans-serif;margin:auto;max-width:700px;padding:10px;}</style>');
 
     }
 });
@@ -126,7 +126,7 @@ function showRecordPickerOptions(field) {
         .on('click', '.record-picker-result-item', function () {
             $(recordPickerData[field].originalField).val(this.id);
             $(recordPickerData[field].controllingField).val(this.textContent.replace(/^\s\s*/, '').replace(/\s\s*$/, ''));
-            if(recordPickerData[field].outputDisplayField){
+            if (recordPickerData[field].outputDisplayField) {
                 $(recordPickerData[field].outputDisplayField).val(this.textContent.replace(/^\s\s*/, '').replace(/\s\s*$/, ''));
             }
             hideRecordPickerOptions(field);
@@ -147,7 +147,7 @@ function makeRecordPicker(field, filterCriteria, displayField, outputDisplayFiel
     let originalField = document.getElementById(field);
     let clone = originalField.cloneNode(true);
     let outputDisplayField;
-    if(outputDisplayFieldId){
+    if (outputDisplayFieldId) {
         outputDisplayField = document.getElementById(outputDisplayFieldId);
     }
 
@@ -158,7 +158,7 @@ function makeRecordPicker(field, filterCriteria, displayField, outputDisplayFiel
         searchResults: undefined,
         timeout: 500,
         displayField: displayField,
-        outputDisplayField : outputDisplayField
+        outputDisplayField: outputDisplayField
 
     }
     clone.id = clone.id + '_clone';
@@ -233,7 +233,7 @@ function prepareRepeatSection() {
                 .parent()
                 .find('label')
                 .each(function () {
-                    if ($(this).text().includes(' (FOLD_HEADER)')) {}
+                    if ($(this).text().includes(' (FOLD_HEADER)')) { }
                 });
             $(this)
                 .parent()
@@ -426,7 +426,7 @@ $(document).ready(function () {
     })();
 
     //styles radios and check boxes
-    
+
     /*
     var $span = $("span.choices.vertical > span.oneChoice");
     $span.replaceWith(function () {
@@ -453,8 +453,8 @@ $(document).ready(function () {
 
     //Adds Logo
     $('.sv-container').prepend('<a class="logo-link" href=\"//lse.ac.uk/home.aspx\"> <img class=\"logo-image\" s' +
-            'rc=\"https://lseapps.secure.force.com/static/resource/FormAssets/London-school-o' +
-            'f-economics-logo-with-name.svg\"><\/a>');
+        'rc=\"https://lseapps.secure.force.com/static/resource/FormAssets/London-school-o' +
+        'f-economics-logo-with-name.svg\"><\/a>');
     $('.logo-link').wrap("<div class='logo'></div>");
 
     // Groups the phone elements together. Dialling Code MUST preceed the phone
@@ -549,25 +549,46 @@ $(document).ready(function () {
 
     //replaces Assistance link with legal Disclaimer Text.
     var DisclaimerEmail = '<a href=\"mailto:';
-    DisclaimerEmail += $('input[type="hidden"]')
-        .eq(0)
-        .val();
+    var emailAddress = '';
+    if ($('#' + $('label:contains("Disclaimer Text")').attr('for')).length > 0) {
+        emailAddress += $('#' + $('label:contains("Disclaimer Email")').attr('for')).val();
+    }
+    else {
+        emailAddress += $('input[type="hidden"]')
+            .eq(0)
+            .val();
+    }
     DisclaimerEmail += "\"  target=\"_top\">";
-    DisclaimerEmail += $('input[type="hidden"]')
-        .eq(0)
-        .val();
+    DisclaimerEmail += emailAddress;
     DisclaimerEmail += "<\/a>";
 
     var DisclaimerDataProtection = '<a href=\"';
-    DisclaimerDataProtection += $('input[type="hidden"]')
-        .eq(1)
-        .val();
+    var dataProtection = '';
+    if ($('#' + $('label:contains("Disclaimer Data Protection Link")').attr('for')).length > 0) {
+        dataProtection += $('#' + $('label:contains("Disclaimer Data Protection Link")').attr('for')).val();
+    }
+    else {
+        dataProtection += $('input[type="hidden"]')
+            .eq(1)
+            .val();
+    }
+
+    DisclaimerDataProtection += dataProtection;
     DisclaimerDataProtection += '\">Data Protection Policy<\/a>';
+
     var DisclaimerText = "All fields marked <span class='RequiredField'>*</span> are compulsory.<p></p>";
 
-    DisclaimerText += $('input[type="hidden"]')
-        .eq(2)
-        .val();
+    var disclaimerText = '';
+    if ($('#' + $('label:contains("Disclaimer Text")').attr('for')).length > 0) {
+        disclaimerText += $('#' + $('label:contains("Disclaimer Text")').attr('for')).val();
+    }
+    else {
+        disclaimerText += $('input[type="hidden"]')
+            .eq(2)
+            .val();
+    }
+
+    DisclaimerText += disclaimerText;
 
     DisclaimerText = DisclaimerText.replace('{!Email}', DisclaimerEmail);
     DisclaimerText = DisclaimerText.replace('{!DataProtection}', DisclaimerDataProtection);
@@ -584,20 +605,20 @@ $(document).ready(function () {
         var fieldTitle = "";
         $('input[type="text"]')
             .each(function () {
-    try {
-        fieldTitle = $(this).attr('title');
-        if (typeof fieldTitle === "undefined") {fieldTitle = "";}
- if (fieldTitle.indexOf('EMAIL') >= 0) {
-                
+                try {
+                    fieldTitle = $(this).attr('title');
+                    if (typeof fieldTitle === "undefined") { fieldTitle = ""; }
+                    if (fieldTitle.indexOf('EMAIL') >= 0) {
 
-                    $(this).addClass('lowercase');
-                    $(this).on('keyup', function () {
-                        $(this).val($(this).val().toLowerCase());
-                    });
+
+                        $(this).addClass('lowercase');
+                        $(this).on('keyup', function () {
+                            $(this).val($(this).val().toLowerCase());
+                        });
+                    }
                 }
-    }
-    catch(err) {console.log(err);}
-    
+                catch (err) { console.log(err); }
+
             });
     }, 600);
 
@@ -635,24 +656,24 @@ $(document).ready(function () {
 
 //a function that makes sure multiple select boxes don't have the same values - add an array of each id to function to call it - ie uniqueFind(["id1", "id2", "id3"])
 
-var uniqueFind = function(unique) {
-  $(document).ready(function() {
-    var idList = "#"+unique.join(", #")
-    $(idList).on("change", function() {
-      var alertable = "no";
-      var eachId;
-      var uniqueList = unique;
-      for (eachId in uniqueList) {
-        if ($(this).attr("id") !== uniqueList[eachId]) {
-          if ($(this).find(":selected").text() == $("#" + uniqueList[eachId]).find(":selected").text()) {
-            alertable = "yes";
-            $(this).val($(this).find("[data-default-value='true']").attr("value"));
-          }
-        }
-      }
-      if (alertable == "yes") {
-        alert("You must make a different selection for each preference")
-      }
-    })
-  });
+var uniqueFind = function (unique) {
+    $(document).ready(function () {
+        var idList = "#" + unique.join(", #")
+        $(idList).on("change", function () {
+            var alertable = "no";
+            var eachId;
+            var uniqueList = unique;
+            for (eachId in uniqueList) {
+                if ($(this).attr("id") !== uniqueList[eachId]) {
+                    if ($(this).find(":selected").text() == $("#" + uniqueList[eachId]).find(":selected").text()) {
+                        alertable = "yes";
+                        $(this).val($(this).find("[data-default-value='true']").attr("value"));
+                    }
+                }
+            }
+            if (alertable == "yes") {
+                alert("You must make a different selection for each preference")
+            }
+        })
+    });
 }
