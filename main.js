@@ -601,27 +601,11 @@ $(document).ready(function () {
     });
 
     //sets fields which contain "Email address" to lower case.
-    setTimeout(function () {
-        var fieldTitle = "";
-        $('input[type="text"]')
-            .each(function () {
-                try {
-                    fieldTitle = $(this).attr('title');
-                    if (typeof fieldTitle === "undefined") { fieldTitle = ""; }
-                    if (fieldTitle.indexOf('EMAIL') >= 0) {
-
-
-                        $(this).addClass('lowercase');
-                        $(this).on('keyup', function () {
-                            $(this).val($(this).val().toLowerCase());
-                        });
-                    }
-                }
-                catch (err) { console.log(err); }
-
-            });
-    }, 600);
-
+    $('.validate-email').addClass('lowercase')
+    $('.validate-email').on('keyup',function(){
+        let currentVal = $(this).val().toLowerCase();
+        $(this).val(currentVal );
+    })
     //adds a colour to any radio buttons that say 'Decline'
     $('input[type="radio"]+label:contains("Decline")').addClass('decline-btn');
 
