@@ -1476,7 +1476,7 @@ var investigatorFix = function() {
 
     if ($("#tfa_1839").find(":selected").text() === "No") {
       console.log($("#tfa_1839").find(":selected").text())
-      $("#tfa_1844").on("keyup, blur", function() {
+      $("#tfa_1844").on("keyup blur", function() {
         $("#tfa_2245").val($(this).val())
 
       })
