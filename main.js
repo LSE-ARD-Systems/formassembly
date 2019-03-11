@@ -710,7 +710,7 @@ var modal = function() {
   })
 
 }
-modal();
+
 
 var makeModal = function(content) {
 
@@ -1434,39 +1434,6 @@ var saveFix = function() {
     }
   )
 }
-
-
-
-// var autoSave = function() {
-//   var auto;
-//   $(document).ready(
-//     function() {
-//       var switchit = '<div style="position: absolute; top: 15px; right: 80px">Autosave:</div><label class="switch"><input id="autosave" type="checkbox" value="on"/><span class="slider round"></span></label>';
-//       $(".wFormTitle").first().before(switchit);
-
-//       function switchauto() {
-//         if ($("#autosave").is(':checked')) {
-//           auto = setInterval(function() {
-//             $(".saveme").trigger("click");
-//             console.log("saved")
-//           }, 300000)
-//         } else {
-//           clearInterval(auto);
-//         }
-//       }
-//       switchauto();
-//       $("#autosave").on("click", function() {
-//         switchauto()
-//       })
-
-
-//     })
-// }
-
-// autoSave();
-
-
-
 
 
 var supervisorFix = function() {
