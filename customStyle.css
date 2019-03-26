@@ -269,14 +269,14 @@
     width: 100% !important;
 }
 
-.kalendae span {
-    width: 14% !important;
-    margin: 0 !important;
-    padding: 4px !important;
-}
-
 .kalendae .k-days span {
     height: 1.8em;
+    width: calc(14.28% - 10px) !important;
+    border-radius: 0px;
+}
+
+.kalendae .k-header span {
+    width:calc(14.28% - 3px) !important;
 }
 
 .kalendae .k-btn-close {
