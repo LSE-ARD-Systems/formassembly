@@ -486,7 +486,7 @@ $(document).ready(function () {
         .searchParams
         .get('title');
     if (title) {
-        $('.wFormTitle').html(title + ' registration');
+        $('.wFormTitle').html(title);
     }
 
     // adds and removes the 'full' class when an user tries to exceed the maximum
