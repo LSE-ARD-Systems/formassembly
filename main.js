@@ -167,6 +167,7 @@ function makeRecordPicker(field, filterCriteria, displayField, outputDisplayFiel
     $(clone).attr('autocomplete', 'off');
     $(clone).insertAfter(originalField);
     $(clone).removeClass('required');
+    $(clone).removeClass('validate-custom');
     $(originalField).addClass('sv-hide');
 
     $(clone).on('keyup', function (event) {
