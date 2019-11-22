@@ -726,3 +726,15 @@
 .wFormContainer .twitter-typeahead .sv-form-control {
     background: whitesmoke !important;
 }
+
+.wFormContainer .fa-spinner {
+    display: none !important;
+}
+
+.wFormContainer .fa-search {
+   display: none !important;
+}
+
+.wFormContainer fa-times-circle  {
+    display: none !important;
+}
