@@ -1,0 +1,751 @@
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i);
+@import url(https://fonts.googleapis.com/css?family=Hind);
+@import url(https://fonts.googleapis.com/css?family=Roboto|Hind);
+.targetx-dashboard-hero .targetx-dashboard-hero-icon-container .targetx-dashboard-hero-icon {
+    height: 80%;
+    width: 80%;
+    background-image: url(https://lseapps.secure.force.com/static/resource/LogoSquare) !important;
+}
+
+.targetx-dashboard-hero-icon-container {
+    height: 156px !important;
+    width: 156px !important;
+    background-color: #FFF !important;
+    border-radius: 0 !important;
+    display: none !important;
+}
+
+.targetx-header-university-icon, .portal-header__logo {
+    width: 160px;
+    background-image: url(https://lseapps.secure.force.com/static/resource/LogoFULL) !important;
+    margin: 15px;
+}
+
+.targetx-header-university-info {
+    display: none !important;
+}
+
+.targetx-dashboard-hero, .portal-hero {
+    background-position: left 0;
+}
+
+.targetx-dashboard-hero .targetx-dashboard-hero-university {
+    margin-left: 0px !important;
+}
+
+.targetx-dashboard-hero-university-name {
+    background-color: #FFF;
+    font-family: 'Libre Baskerville', serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-style: italic;
+}
+
+.targetx-dashboard-hero-university-name-inner {
+    box-shadow: none;
+    width: auto;
+    padding-right: 20px;
+    background-color: transparent;
+    font-size: 85px !important;
+}
+
+.targetx-radio-label, .targetx-input-field-container, .targetx-radio-option:last-of-type, .targetx-checkbox-option:last-of-type {
+    margin: 0 !important;
+}
+
+.targetx-button, input.targetx-button, .button, .targetx-button-secondary {
+    border: 0 !important;
+    background-color: #1D1D1B;
+    font-size: 16px !important;
+    font-weight: 400;
+    line-height: 1.42857143;
+    box-shadow: none;
+    text-transform: none !important;
+    padding: 6px 50px;
+}
+
+.targetx-header-user span:before {
+    content: none;
+}
+
+.targetx-button-secondary:hover, .targetx-button:hover .button:hover, .button--color--primary:hover {
+    background-color: #E10017 !important;
+}
+
+.targetx-dashboard-hero .targetx-dashboard-hero-university-name, .targetx-header-calendar, .targetx-header-email, .targetx-header-print, .targetx-header-review, .targetx-header-user {
+    color: #1D1D1B;
+    transition: all 750ms cubic-bezier(0.23, 1, 0.32, 1) 0s;
+}
+
+.targetx-header-user:hover {
+    color: #E10017 !important;
+}
+
+body, body>*, .button, input, select, p, .portal-block__copy {
+    font-family: Hind, sans-serif !important;
+}
+
+.navbar-toggle {
+    height: 44px;
+    margin: 10px;
+}
+
+.targetx-dashboard-hero-info, .targetx-dashboard-hero-university-name-inner, .targetx-dashboard-hero-university-name, targetx-dashboard-hero-university, targetx-dashboard-hero-university-name, targetx-dashboard-hero-university-name-inner {
+    background-color: transparent;
+    box-shadow: none;
+    z-index: 999 !important;
+}
+
+.targetx-dashboard-hero-university-name {
+    background-color: rgba(255, 255, 255, 0.6) !important;
+    padding-top: 10px;
+    margin-bottom: 15px;
+}
+
+.targetx-dashboard-hero-info, .targetx-dashboard-hero-icon-container, .targetx-dashboard-hero-university {
+    width: 100% !important;
+}
+
+.targetx-dashboard-hero .targetx-dashboard-hero-info {
+    left: 0% !important;
+}
+
+.targetx-dashboard-hero-info {
+    margin-top: 160px;
+}
+
+input, select, .targetx-input-text, .targetx-picklist-placeholder ng-binding, textarea {
+    font-size: 16px !important;
+    font-weight: normal !important;
+    color: #1D1D1B !important;
+    padding-left: 10px !important;
+    border: 1px #ccc solid !important;
+    border-radius: 0px !important;
+    padding-top: 10px !important;
+    padding-bottom: 5px !important;
+}
+
+.targetx-button-disabled {
+    color: white !important;
+    opacity: 0.2 !important;
+}
+
+.targetx-button, .button {
+    color: white !important;
+}
+
+.targetx-application-aside {
+    background-color: #f7f7f7;
+}
+
+/*
+.targetx-input-label .targetx-input-placeholder,
+.targetx-input-label .targetx-picklist-placeholder,
+*/
+
+.targetx-option-label {
+    position: absolute;
+    margin-top: 3px;
+}
+
+.targetx-element, .targetx-radio-label, .targetx-option-label, .targetx-input-label .targetx-input-text, .targetx-input-label .targetx-input-textarea, .targetx-input-label .targetx-select-box, .targetx-input-label.targetx-checkbox-label {
+    font-family: Hind, Roboto, Helvetica, Arial, sans-serif !important;
+    font-size: 16px !important;
+    color: #585e69!important;
+    padding-left: 10px!important;
+    padding-top: 5px!important;
+    font-weight: 400;
+}
+
+.targetx-application-sidebar-body {
+    overflow-y: auto !important;
+}
+
+@media (min-width:900px) {
+    .targetx-input-label .targetx-select-box:focus+span, .targetx-input-label .targetx-select-box.ng-dirty+span, .targetx-input-label .targetx-input-text:focus+span, .targetx-input-label .targetx-input-textarea:focus+span, .targetx-input-label .targetx-input-text.ng-dirty+span, .targetx-input-label .targetx-input-textarea.ng-dirty+span, .targetx-input-label .targetx-input-text.targetx-has-value+span, .targetx-input-label .targetx-input-textarea.targetx-has-value+span, .targetx-application-form-slide label input.targetx-dirty+span, .targetx-application-form-slide label input:focus+span, .date-dropdown span.targetx-has-value, .targetx-input-label .targetx-select-box.targetx-has-value+span {
+        font-size: 16px !important;
+    }
+    .targetx-dashboard-hero-university-name {
+        padding-left: 100px;
+    }
+}
+
+.targetx-picklist-placeholder, .targetx-input-placeholder, .targetx-input-text+span {
+    padding: 10px !important;
+}
+
+.targetx-select-box-icon {
+    padding-top: 5px;
+    padding-right: 5px;
+}
+
+.targetx-input-text+span {
+    color: #585E69 !important;
+}
+
+h2.targetx-application-form-title {
+    font-size: 16px !important;
+}
+
+html {
+    -webkit-animation: fadein 1.5s;
+    -moz-animation: fadein 1.5s;
+    -ms-animation: fadein 1.5s;
+    -o-animation: fadein 1.5s;
+    animation: fadein 1.5s;
+    display: block;
+}
+
+to {
+    opacity: 1;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px #FFF inset;
+}
+
+.targetx-review-value-container .targetx-review-item-label {
+    display: inline-block;
+    width: 90%;
+    margin-right: 5%;
+    font-size: 16px !important;
+}
+
+.targetx-review-value-container .targetx-review-item-value {
+    display: inline-block;
+    width: 90%;
+}
+
+h1 {
+    padding-bottom: 25px;
+}
+
+.targetx-button-edit-icon {
+    font-size: 16px !important;
+}
+
+.targetx-button-header:hover, .targetx-button:hover {
+    background-color: #DD0B15 !important;
+    color: #FFF !important;
+}
+
+.targetx-button-header, .targetx-section-header .targetx-required, a, .targetx-button, .button, h1, h2, h3, span {
+    font-family: Hind, Roboto, Helvetica, Arial, sans-serif !important;
+    text-transform: none !important;
+    font-weight: 400 !important;
+    box-shadow: none !important;
+}
+
+.targetx-button-header {
+    margin-top: 4px !important;
+    margin-bottom: 4px !important;
+}
+
+.targetx-button-header, .targetx-button {
+    padding: 10px 20px !important;
+}
+
+.targetx-element>p:first-of-type {
+    font-size: 16px !important;
+    margin-top: -30px !important;
+    margin-bottom: 10px !important;
+    padding-left: 25px !important;
+}
+
+.targetx-card {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+    border-radius: 0px !important;
+}
+
+.targetx-input-field-container {
+    margin-top: 50px !important;
+}
+
+.targetx-required:before {
+    color: #DD0B15 !important;
+    font-size: 5px !important;
+    padding-top: 15px;
+}
+
+span.targetx-required.ng-scope:before {
+    transform: translateY(-4px);
+    padding: 0px;
+    font-size: 7px !important;
+}
+
+.radio input:checked+.outer {
+    border-color: #1D1D1B !important;
+}
+
+.targetx-section-header {
+    /*border-top: grey 1px solid!important;*/
+    border-bottom: grey 0 solid !important;
+}
+
+.targetx-header-user, .targetx-header-calendar, .targetx-header-email, .targetx-header-print, .targetx-header-review {
+    border-left: none !important;
+}
+
+.targetx-application-sidebar {
+    background-color: #1D1D1B !important;
+    opacity: 1 !important;
+}
+
+.targetx-input-textarea {
+    border: 1px #dee6ed solid !important;
+    border-radius: 0px !important;
+    font-size: 16px !important;
+    resize: vertical !important;
+    min-height: 49px;
+}
+
+.targetx-input-textarea:focus, input:focus {
+    border: 1px #59A6C8 solid !important;
+    transition: border ease 500ms;
+    border-radius: 0px !important;
+}
+
+.targetx-dashboard-hero-university-name>br, .targetx-element>p:empty {
+    display: none;
+}
+
+.targetx-button-header, .targetx-button, .button, .targetx-application-sidebar-steps, .inner {
+    background-color: #1D1D1B !important;
+}
+
+.targetx-nav-link {
+    padding-top: 18px !important;
+}
+
+.targetx-nav-link:hover, .targetx-button-childobject {
+    color: #59a6c8 !important;
+}
+
+.targetx-full-card, card.ng-scope.ng-isolate-scope {
+    background-color: #f5f5f5b3 !important;
+}
+
+#application-header, .targetx-section-header, .hamburger-menu-bar {
+    background-color: #FFF !important;
+}
+
+.form-control.ui-select-search {
+    border: 0px !important;
+    box-shadow: none !important;
+    padding: 0px !important;
+}
+
+@media (max-width: 900px) {
+    .targetx-dashboard-hero-info {
+        margin-top: 20px;
+    }
+    .targetx-dashboard-hero-university-name-inner {
+        font-size: 40px !important;
+        margin-top: 10px;
+    }
+    .targetx-dashboard-hero-university-name {
+        padding-left: 30px !important;
+    }
+    .targetx-dashboard-hero-university {
+        margin-top: 20px;
+    }
+    .targetx-header-university-icon {
+        background-image: url(https://lseapps.secure.force.com/static/resource/LogoSquare) !important;
+        height: 50px;
+        width: 50px;
+        margin: 8px;
+    }
+    .targetx-application-header>.targetx-header-university>.targetx-header-university-icon {
+        margin: 20px;
+    }
+    .targetx-button, .targetx-button-secondary, .button {
+        background-color: #1D1D1B;
+        font-size: 16px !important;
+        font-weight: 400;
+        line-height: 1.42857143;
+        box-shadow: none;
+        text-transform: none !important;
+        padding: 6px 50px !important;
+    }
+    .targetx-dashboard-hero-university-name {
+        background-color: rgba(255, 255, 255, 0.8) !important;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-bottom: 15px;
+    }
+    .targetx-application-form-slide.targetx-active>label, .sign-in-questions>label {
+        margin-top: 20px;
+    }
+    h1.targetx-application-form-title {
+        padding-bottom: 0px !important;
+    }
+    .targetx-application-form-slide label input.targetx-dirty+span, .targetx-application-form-slide label input:focus+span {
+        font-size: 16px !important;
+    }
+}
+
+.targetx-card-contents {
+    max-width: none !important;
+}
+
+.targetx-card-buttons {
+    padding-top: 10px;
+}
+
+.targetx-radio-label, .targetx-radio-option:last-of-type, .targetx-checkbox-option:last-of-type {
+    margin: 0 !important;
+}
+
+.targetx-radio-label {
+    margin-bottom: 10px !important;
+}
+
+.targetx-childobject-icon {
+    display: none !important;
+}
+
+/*
+.targetx-input-placeholder.ng-binding,
+.targetx-picklist-placeholder.ng-binding {
+font-size: 16px !important;
+}
+*/
+
+.targetx-childobject-text.ng-binding, .targetx-application-form-info {
+    font-size: 16px !important;
+}
+
+.section-header__title {
+    padding: 0px;
+}
+
+.portal-header__brand {
+    margin-left: 10px !important;
+}
+
+.portal-header__title-group {
+    padding-top: 30px;
+}
+
+.messageText, .targetx-error-msg {
+    font-size: 16px !important;
+}
+
+.targetx-error-msg {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.targetx-card-contents {
+    padding-top: 10px;
+}
+
+ng-combo-date-picker>.select-wrap:nth-of-type(1) {
+    margin-right: 12.5%;
+}
+
+ng-combo-date-picker>.select-wrap:nth-of-type(2) {}
+
+ng-combo-date-picker>.select-wrap:nth-of-type(3) {
+    margin-left: 12.5%;
+}
+
+ng-combo-date-picker>.select-wrap {
+    width: 25% !important;
+}
+
+ng-combo-date-picker>.select-wrap>.targetx-select-box-icon {
+    padding-right: 0px;
+}
+
+.date-picker-wrap {
+    width: calc(100% + 15px);
+}
+
+.targetx-button-remove-item {
+    margin-left: 5px !important;
+}
+
+.targetx-nav-item.active>.targetx-nav-circle {
+    border-width: 3px !important;
+}
+
+.portal-header__logo {
+    padding-left: 0px !important;
+}
+
+@media (min-width: 768px) {
+    .targetx-card {
+        max-width: 1000px;
+        /*margin-left:120px;*/
+    }
+    .targetx-section-active>header {
+        padding-left: 80px;
+    }
+    form>.targetx-page-row>.targetx-card-container {
+        padding-left: 80px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    html {
+        padding-left: 0px !important;
+    }
+    .targetx-application-container {
+        padding-left: 10%;
+    }
+    .targetx-card {
+        /*
+        margin-left:50px;
+        margin-right:30px;
+        */
+    }
+    .targetx-application-sidebar, .targetx-header-back {
+        min-width: 40px;
+    }
+    .targetx-application-hamburger-nav, .targetx-application-sidebar-body {
+        padding-left: 5px !important;
+    }
+    .targetx-application-sidebar-body {
+        overflow-y: auto;
+    }
+    .hamburger-menu-bar {
+        padding-left: 20px !important;
+    }
+    .targetx-application-nav-header {
+        padding-bottom: 30px;
+        padding-left: 70px;
+    }
+    html, .targetx-section-header {
+        padding-left: 20px;
+    }
+    .targetx-section-active>header {
+        padding-left: 40px;
+    }
+}
+
+/*Fade in for page*/
+
+html {
+    -webkit-animation: fadein 1.5s;
+    -moz-animation: fadein 1.5s;
+    -ms-animation: fadein 1.5s;
+    -o-animation: fadein 1.5s;
+    animation: fadein 1.5s
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@-moz-keyframes fadein {
+    from {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes fadein {
+    from {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@-ms-keyframes fadein {
+    from {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@-o-keyframes fadein {
+    from {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
+}
+
+.requirement-met-input:before, .requirement-met-lookup:before, .requirement-met-select:before {
+    opacity: 0 !important;
+}
+
+.portal-header__logo.portal-header-logo {
+    margin-left: 0px !important;
+}
+
+[rendered="false"] {
+    display: none;
+}
+
+.events-nav {
+    display: none;
+}
+
+/*page loads hidden and displays on complete */
+
+html {
+    display: block;
+}
+
+.targetx-section-active>header {
+    padding-left: 0px !important;
+}
+
+.targetx-section-header>h2 {
+    max-width: 80%;
+}
+
+form>.targetx-page-row>.targetx-card-container {
+    padding-left: 0px !important;
+}
+
+@media (min-width: 768px) {
+    .targetx-section-header.targetx-application-state-edit {
+        text-indent: 120px;
+    }
+}
+
+@media (max-width: 768px) {
+    html, .targetx-section-header {
+        padding-left: 0px;
+    }
+    .targetx-section-active .targetx-section-header.targetx-application-state-edit {
+        position: fixed;
+        width: calc(100% - 40px);
+        margin-left: 40px;
+    }
+    .targetx-section-header {
+        text-indent: 0px !important;
+    }
+    .targetx-section-header>h2 {
+        padding-left: 10px;
+    }
+}
+
+.targetx-nav-item {
+    height: 42px;
+}
+
+.targetx-application-sidebar-steps {
+    margin-top: 5px;
+}
+
+.targetx-input-label .targetx-file-input.ng-touched+span {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.targetx-attachment-label {
+    margin-top: 5px;
+}
+
+.targetx-button, input.targetx-button, .button, .targetx-button-secondary {
+    line-height: 1.2;
+}
+
+input, select, textarea, .targetx-input-text, .targetx-input-textarea, .targetx-picklist-placeholder .ng-binding, .targetx-file-input-value {
+    border-top: 1px solid transparent !important;
+    border-bottom: 1px #ccc solid !important;
+    border-right: 0px #ccc solid !important;
+    border-left: 5px #ccc solid !important;
+    border-radius: 0px !important;
+}
+
+.targetx-file-input-value {
+    padding-left: 5px !important;
+}
+
+.targetx-input-label .targetx-input-placeholder, .targetx-input-label .targetx-picklist-placeholder, .targetx-input-label .targetx-input-text, .targetx-input-label .targetx-input-textarea, .targetx-input-label .targetx-select-box {
+    font-size: 16px;
+}
+
+input[type=checkbox], input[type=radio] {
+    width: 20px;
+    height: 20px;
+}
+
+.targetx-button, .targetx-button-secondary, .button, .targetx-button-header, .targetx-application-form-slide, .menu-pane {
+    border-radius: 0px !important;
+}
+
+.targetx-nav-link, .targetx-nav-item:first-child .targetx-nav-link {
+    border-top: 1px solid transparent;
+}
+
+html, .targetx-application-form-slides, card, .targetx-full-card, .targetx-dashboard {
+    background-color: #F5F5F5 !important;
+}
+
+.targetx-dashboard-hero-info, .targetx-dashboard-hero-university {
+    bottom: 0 !important;
+    margin: 0 !important;
+    position: absolute !important;
+    transform: initial !important;
+}
+
+.targetx-dashboard-hero-university-name {
+    margin: 0px !important;
+}
+
+.menu-item {
+    padding: 0 !important;
+}
+
+.menu-item__link {
+    padding: 1.4375rem 0.9375rem;
+}
+
+.targetx-childobject-text {
+    display: block;
+}
+
+.targetx-childobject-text, .targetx-button, .targetx-application-form-title, .menu-item__label {
+    text-transform: lowercase !important;
+}
+
+.targetx-childobject-text::first-letter, .targetx-button::first-letter, .targetx-application-form-title::first-letter, .button::first-letter, .section-header__title::first-letter, .menu-item__label::first-letter {
+    text-transform: uppercase !important;
+}
+
+.targetx-childobject-text::first-letter {
+    text-transform: uppercase !important;
+}
+
+.targetx-button-header>* {
+    text-transform: lowercase !important;
+}
+
+.targetx-button-header>span:first-of-type {
+    text-transform: capitalize !important;
+}
+
+.app-process-name {
+    text-transform: none !important;
+}
+
+:focus {
+    outline: none !important;
+}
+
+a:focus {
+    color: white !important;
+}
+
+.fullwidth-override {
+    padding-left: 0px !important;
+}
