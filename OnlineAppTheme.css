@@ -144,7 +144,6 @@ input, select, .targetx-input-text, .targetx-picklist-placeholder ng-binding, te
 */
 
 .targetx-option-label {
-    position: absolute;
     margin-top: 3px;
 }
 
