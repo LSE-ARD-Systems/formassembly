@@ -738,3 +738,8 @@
 .wFormContainer .fa-times-circle  {
     display: none !important;
 }
+
+.wFormContainer .tt-menu {
+    background-color: #fff !important;
+}
+
