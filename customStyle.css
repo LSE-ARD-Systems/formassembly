@@ -718,7 +718,7 @@
 }
 
 .wFormContainer .twitter-typeahead .tt-suggestion {
-    padding-left: 10px;
+    padding: 10px;
     border-bottom: 1px solid lightgray;
     cursor: pointer;
 }
