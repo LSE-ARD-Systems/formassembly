@@ -1500,7 +1500,11 @@ var investigatorFix = function() {
 
 }
 
-
+/*!
+	autosize 4.0.2
+	license: MIT
+	http://www.jacklmoore.com/autosize
+*/
 (function (global, factory) {
 	if (typeof define === "function" && define.amd) {
 		define(['module', 'exports'], factory);
@@ -1784,6 +1788,8 @@ var investigatorFix = function() {
 	exports.default = autosize;
 	module.exports = exports['default'];
 });
+
+
 
 
 
