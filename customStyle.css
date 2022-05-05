@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Hind');
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+@import url("https://fonts.googleapis.com/css?family=Hind");
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
+
 .wFormWebPage {
     padding: 20px;
     background: white;
@@ -20,13 +21,15 @@
     margin: auto;
     margin-top: 70px;
     font-family: "Roboto", sans-serif;
-    color: #52524c;
+    color: #393d3e;
+    line-height: 1.3;
 }
 
 @keyframes fadein {
     from {
         opacity: 0;
     }
+
     to {
         opacity: 1;
     }
@@ -36,6 +39,7 @@
     from {
         opacity: 0;
     }
+
     to {
         opacity: 1;
     }
@@ -45,6 +49,7 @@
     from {
         opacity: 0;
     }
+
     to {
         opacity: 1;
     }
@@ -54,6 +59,7 @@
     from {
         opacity: 0;
     }
+
     to {
         opacity: 1;
     }
@@ -63,18 +69,14 @@
     from {
         opacity: 0;
     }
+
     to {
         opacity: 1;
     }
 }
 
-.wFormContainer .sv-form-group {
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
 .wFormContainer .RequiredField {
-    color: #F43131;
+    color: #e0112b;
 }
 
 .wFormContainer fieldset fieldset>legend {
@@ -101,7 +103,8 @@
     padding: 0 20px 0 20px;
 }
 
-.wFormContainer input, .wFormContainer select {
+.wFormContainer input,
+.wFormContainer select {
     border-radius: 3px !important;
 }
 
@@ -142,7 +145,8 @@
     width: calc(100% - 170px);
 }
 
-.wFormContainer li, .wFormContainer li>a {
+.wFormContainer li,
+.wFormContainer li>a {
     cursor: pointer !important;
 }
 
@@ -173,7 +177,8 @@
     margin: auto;
 }
 
-.wFormContainer input[type="checkbox"]:checked+label, .wFormContainer input[type="radio"]:checked+label {
+.wFormContainer input[type="checkbox"]:checked+label,
+.wFormContainer input[type="radio"]:checked+label {
     color: white;
     background-color: #227c0e;
 }
@@ -185,10 +190,6 @@
 
 .wFormContainer .choices .oneChoice {
     width: 100%;
-}
-
-.wFormContainer .choices .oneChoice>input {
-    display: none;
 }
 
 .wFormContainer .choices .oneChoice>label {
@@ -214,6 +215,16 @@
     border: 2px solid white;
 }
 
+.wFormContainer .choices .oneChoice>input {
+    /* hide these but still selectable with keyboard*/
+    opacity: 0;
+    position: absolute;
+}
+
+.wFormContainer .choices .oneChoice>input:focus+label {
+    border: 2px #59a6c8 dashed !important;
+}
+
 .wFormContainer .wFpomContainer {
     max-width: 750px !important;
 }
@@ -228,11 +239,11 @@
 }
 
 .wFormContainer input[type="checkbox"]:checked+label {
-    background-color: #55ACEE;
+    background-color: #55acee;
 }
 
 .wFormContainer input[type="radio"]:checked+label.decline-btn {
-    background-color: #F43131;
+    background-color: #e0112b;
 }
 
 .wFormContainer .actions {
@@ -248,12 +259,13 @@
     text-transform: lowercase !important;
 }
 
-.wFormContainer .supportInfo, .wFormContainer .hint {
+.wFormContainer .supportInfo,
+.wFormContainer .hint {
     font-size: 0.8em;
 }
 
 .wFormContainer .supportInfo {
-    display:none;
+    display: none;
 }
 
 .wFormContainer .field-hint-inactive {
@@ -265,7 +277,10 @@
     width: 200px;
 }
 
-.kalendae .k-calendar, .kalendae .k-title, .kalendae .k-header, .kalendae .k-days {
+.kalendae .k-calendar,
+.kalendae .k-title,
+.kalendae .k-header,
+.kalendae .k-days {
     width: 100% !important;
 }
 
@@ -276,17 +291,19 @@
 }
 
 .kalendae .k-header span {
-    width:calc(14.28% - 3px) !important;
+    width: calc(14.28% - 3px) !important;
 }
 
 .kalendae .k-btn-close {
     border: 0 !important;
 }
 
-.wFormContainer div, .wFormContainer fieldset {
+.wFormContainer div,
+.wFormContainer fieldset {
     opacity: 1;
     z-index: 1;
     transition: opacity 0.6s ease-in-out;
+    clear: both;
 }
 
 .wFormContainer .offstate {
@@ -338,7 +355,8 @@
     position: absolute;
 }
 
-.wFormContainer a, .wFormContainer legend {
+.wFormContainer a,
+.wFormContainer legend {
     text-decoration: underline;
 }
 
@@ -352,7 +370,7 @@
 }
 
 .wFormContainer .errMsg {
-    color: #F43131;
+    color: #e0112b;
 }
 
 @media (min-width: 805px) {
@@ -366,40 +384,48 @@
         display: block;
         width: 100%;
     }
+
     .wFormContainer .wFormTitle {
         font-size: 2.5em !important;
     }
+
     .wFormContainer .phone-element-number {
         display: block;
         width: 100%;
     }
+
     .wFormContainer .select-item {
         display: block !important;
         width: 100% !important;
     }
+
     .wFormContainer .select-item>label {
         padding-top: 7px;
         padding-bottom: 7px;
         transition: background-color 0.1s ease, color 0.1s ease;
     }
+
     .wFormContainer .select-item:first-of-type {
         border-top-left-radius: 4px !important;
         border-top-right-radius: 4px !important;
         border-bottom-right-radius: 0px !important;
         border-bottom-left-radius: 0px !important;
     }
+
     .wFormContainer .select-item:last-of-type {
         border-bottom-right-radius: 4px !important;
         border-bottom-left-radius: 4px !important;
         border-top-left-radius: 0px !important;
         border-top-right-radius: 0px !important;
     }
+
     .wFormContainer .select-item:first-of-type>label {
         border-top-left-radius: 3px !important;
         border-top-right-radius: 3px !important;
         border-bottom-right-radius: 0px !important;
         border-bottom-left-radius: 0px !important;
     }
+
     .wFormContainer .select-item:last-of-type>label {
         border-bottom-right-radius: 3px !important;
         border-bottom-left-radius: 3px !important;
@@ -408,22 +434,48 @@
     }
 }
 
-.wFormContainer .sv-h1, .wFormContainer .sv-h2, .wFormContainer .sv-h3, .wFormContainer .sv-h4, .wFormContainer .sv-h5, .wFormContainer .sv-h6, .wFormContainer h1, .wFormContainer h2, .wFormContainer h3, .wFormContainer h4, .wFormContainer h5, .wFormContainer h6, .wFormContainer .wFormTitle, .wFormContainer .form-title {
+.wFormContainer .sv-h1,
+.wFormContainer .sv-h2,
+.wFormContainer .sv-h3,
+.wFormContainer .sv-h4,
+.wFormContainer .sv-h5,
+.wFormContainer .sv-h6,
+.wFormContainer h1,
+.wFormContainer h2,
+.wFormContainer h3,
+.wFormContainer h4,
+.wFormContainer h5,
+.wFormContainer h6,
+.wFormContainer .wFormTitle,
+.wFormContainer .form-title {
     font-weight: 700;
     font-size: 3em;
     font-family: "Roboto", sans-serif;
 }
 
-.wFormContainer body, .wFormContainer legend, .wFormContainer .sv-form-control {
+.wFormContainer body,
+.wFormContainer legend,
+.wFormContainer .sv-form-control {
     font-family: "Hind", sans-serif !important;
     font-size: 16px;
 }
 
-.wFormContainer .wFormContainer, .wFormContainer fieldset, .wFormContainer fieldset fieldset, .wFormContainer .wFormTitle, .wFormContainer .form-title, .wFormContainer .alert, .wFormContainer .sv-alert, .wFormContainer #lse-form-container {
+.wFormContainer .wFormContainer,
+.wFormContainer fieldset,
+.wFormContainer fieldset fieldset,
+.wFormContainer .wFormTitle,
+.wFormContainer .form-title,
+.wFormContainer .alert,
+.wFormContainer .sv-alert,
+.wFormContainer #lse-form-container {
     border-radius: 0px !important;
 }
 
-.wFormContainer .wFormContainer, .wFormContainer fieldset, .wFormContainer fieldset fieldset, .wFormContainer .wFormTitle, .wFormContainer #lse-form-container {
+.wFormContainer .wFormContainer,
+.wFormContainer fieldset,
+.wFormContainer fieldset fieldset,
+.wFormContainer .wFormTitle,
+.wFormContainer #lse-form-container {
     border: none;
 }
 
@@ -440,7 +492,8 @@
     border-radius: 0px !important;
 }
 
-.wFormContainer .sv-form-control, .wFormContainer .chosen-choices {
+.wFormContainer .sv-form-control,
+.wFormContainer .chosen-choices {
     border-radius: 0px !important;
     border: solid #ccc;
     border-width: 0px 0px 0px 5px;
@@ -472,10 +525,11 @@
     margin-left: 0px !important;
     padding-right: 0px !important;
     margin-right: 0px !important;
-    margin-top: 15px;
+    margin-top: 25px;
 }
 
-.wFormContainer fieldset fieldset, .wFormContainer fieldset>div>fieldset {
+.wFormContainer fieldset fieldset,
+.wFormContainer fieldset>div>fieldset {
     border: 1px solid #ccc !important;
     background-color: white !important;
     margin-left: 0px;
@@ -503,24 +557,29 @@
     border-radius: 0px !important;
 }
 
-.wFormContainer label, .wFormContainer label>* {
+.wFormContainer label,
+.wFormContainer label>* {
     font-weight: 500;
-    text-decoration: underline;
-    text-decoration-color: gray;
 }
 
-.wFormContainer label>span.RequiredField, .wFormContainer .requiredField {
+.wFormContainer label>span.RequiredField,
+.wFormContainer .requiredField {
     text-decoration-color: white !important;
 }
 
 .wFormContainer a {
-    text-decoration-color: #55ACEE !important;
-    color: #55ACEE !important;
+    text-decoration-color: #393d3e !important;
+    color: #393d3e !important;
+}
+
+.wFormContainer a:hover {
+    color: #e0112b !important;
+    text-decoration-color: #e0112b !important;
 }
 
 .wFormContainer a:visited {
-    text-decoration-color: #5C305E !important;
-    color: #5C305E !important;
+    text-decoration-color: #5c305e !important;
+    color: #5c305e !important;
 }
 
 .wFormContainer .ui-menu-item {
@@ -540,10 +599,10 @@
 .wFormContainer legend {
     font-size: 1.6em;
     text-decoration: none;
-    margin-bottom: 10px;
     font-family: "Roboto Slab";
     border: 0;
-    padding-top: 15px;
+    margin-bottom: 0;
+    padding-top: 25px;
 }
 
 .wFormContainer .ui-corner-all {
@@ -561,7 +620,7 @@
 
 .wFormContainer .sv-btn-default {
     background: #fff;
-    color: #f43131;
+    color: #e0112b;
     height: 50px;
     line-height: 48px;
     border-radius: 2px;
@@ -574,15 +633,15 @@
     z-index: 1;
     padding: 0 20px;
     font-size: 14px;
-    font-size: .875rem;
+    font-size: 0.875rem;
     box-sizing: border-box;
-    border: 1px solid #f43131;
+    border: 1px solid #e0112b;
     cursor: pointer;
 }
 
 .wFormContainer .sv-btn-primary {
-    background: #f43131;
-    border-color: #f43131;
+    background: #e0112b;
+    border-color: #e0112b;
     color: #f5f5f5;
     height: 50px;
     line-height: 50px;
@@ -596,19 +655,19 @@
     z-index: 1;
     padding: 0 20px;
     font-size: 14px;
-    font-size: .875rem;
+    font-size: 0.875rem;
     box-sizing: border-box;
     cursor: pointer;
 }
 
 .wFormContainer .sv-btn-primary:hover {
     color: #f5f5f5;
-    background: #b71c1c;
+    background: #a2061b;
 }
 
 .wFormContainer .sv-btn-default:hover {
     color: #f5f5f5;
-    background: #f43131;
+    background: #e0112b;
 }
 
 .wFormContainer .sv-btn-default:hover>* {
@@ -621,7 +680,7 @@
 }
 
 .wFormContainer .full {
-    background-color: #F43131 !important;
+    background-color: #e0112b !important;
     color: white;
     transition: background-color 0.4s ease-out, color 0.4s ease-out;
 }
@@ -636,10 +695,10 @@
     position: absolute;
     color: white;
     font-size: 14px;
-    border: 1px solid #F43131;
+    border: 1px solid #e0112b;
     padding: 0px 10px;
     border-radius: 100px;
-    background: #F43131;
+    background: #e0112b;
     margin-left: 100px;
     height: 20px;
 }
@@ -652,15 +711,8 @@
     overflow-y: auto;
 }
 
-.wFormContainer .record-picker-result-container {
-    margin-top: 2px;
-    border: 1px solid grey;
-    padding: 5px;
-    max-height: 150px;
-    overflow-y: auto;
-}
-
-.wFormContainer .wfPage, .wFormContainer .wfHideSubmit {
+.wFormContainer .wfPage,
+.wFormContainer .wfHideSubmit {
     display: none;
 }
 
@@ -683,9 +735,9 @@
     cursor: pointer;
 }
 
-.wFormContainer .record-picker-result-item:hover {
+.wFormContainer .record-picker-result-item.focused {
     background: #f5f5f5;
-    cursor: pointer;
+    border: 2px #59a6c8 dashed !important;
 }
 
 .wFormContainer .sv-form-control[data-wforms-nooverwrite="disabled"] {
@@ -732,10 +784,10 @@
 }
 
 .wFormContainer .fa-search {
-   display: none !important;
+    display: none !important;
 }
 
-.wFormContainer .fa-times-circle  {
+.wFormContainer .fa-times-circle {
     display: none !important;
 }
 
@@ -743,5 +795,6 @@
     background-color: #fff !important;
 }
 
-.wFormContainer .duplicateSpan {display: none}
-
+.wFormContainer .duplicateSpan {
+    display: block !important;
+}
