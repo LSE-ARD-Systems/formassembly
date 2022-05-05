@@ -219,6 +219,7 @@
     /* hide these but still selectable with keyboard*/
     opacity: 0;
     position: absolute;
+    width:0px;
 }
 
 .wFormContainer .choices .oneChoice>input:focus+label {
