@@ -21,8 +21,7 @@ $.get(
             $("body").remove();
             document.write(
                 '<div class="logo"><a class="logo-link" href="//lse.ac.uk/home.aspx"> <img class=' +
-                '"logo-image" style="width:200px;" src="https://lseapps.secure.force.com/static/r' +
-                'esource/FormAssets/London-school-of-economics-logo-with-name.svg"></a></div><p><' +
+                '"logo-image" style="width:200px;" src="https://lse360.my.salesforce-sites.com/static/resource/FormAssets/London-school-of-economics-logo-with-name.svg"></a></div><p><' +
                 'br><span style="font-size: medium;"><b>ERROR MESSAGE:</b><br>It looks like the s' +
                 "ecurity settings for your browser are out of date. As we can only accept data pr" +
                 "ovided securely, we advise that you try this link again with another browser or " +
@@ -495,7 +494,7 @@ $(document).ready(function () {
     //Adds Logo
     $(".sv-container").prepend(
         '<div class="logo"> <img alt="LSE Logo" class="logo-image" ' +
-        'src="https://lseapps.secure.force.com/static/resource/FormAssets/London-school-of-economics-logo-with-name.svg"></div>'
+        'src="https://lse360.my.salesforce-sites.com/static/resource/FormAssets/London-school-of-economics-logo-with-name.svg"></div>'
     );
 
     // Groups the phone elements together. Dialling Code MUST preceed the phone
