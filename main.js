@@ -1,3 +1,16 @@
+// Google Analytics - only on form 217726
+if (window.location.href.indexOf('formid=217726') !== -1) {
+    document.write(
+        '<script async src="https://www.googletagmanager.com/gtag/js?id=G-LWTEVFESYX"><\/script>' +
+        '<script>' +
+        'window.dataLayer = window.dataLayer || [];' +
+        'function gtag(){dataLayer.push(arguments);}' +
+        'gtag(\'js\', new Date());' +
+        'gtag(\'config\', \'G-LWTEVFESYX\');' +
+        '<\/script>'
+    );
+}
+
 // adds a new Jquery selector for case-insentive :contains called with
 // :containsCI
 $.extend($.expr[":"], {
