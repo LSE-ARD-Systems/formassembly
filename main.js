@@ -1,13 +1,18 @@
-// Google Analytics - only on form 217726
+// Google Tag Manager - only on form 217726
 if (window.location.href.indexOf('formid=217726') !== -1) {
+    // 1. script
     document.write(
-        '<script async src="https://www.googletagmanager.com/gtag/js?id=G-LWTEVFESYX"><\/script>' +
-        '<script>' +
-        'window.dataLayer = window.dataLayer || [];' +
-        'function gtag(){dataLayer.push(arguments);}' +
-        'gtag(\'js\', new Date());' +
-        'gtag(\'config\', \'G-LWTEVFESYX\');' +
-        '<\/script>'
+        '<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({\'gtm.start\':' +
+        'new Date().getTime(),event:\'gtm.js\'});var f=d.getElementsByTagName(s)[0],' +
+        'j=d.createElement(s),dl=l!=\'dataLayer\'?\'&l=\'+l:\'\';j.async=true;j.src=' +
+        '\'https://www.googletagmanager.com/gtm.js?id=\'+i+dl;f.parentNode.insertBefore(j,f);' +
+        '})(window,document,\'script\',\'dataLayer\',\'GTM-NPVJBJ\');<\/script>'
+    );
+
+    // 2. noscript
+    document.write(
+        '<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NPVJBJ"' +
+        'height="0" width="0" style="display:none;visibility:hidden"></iframe><\/noscript>'
     );
 }
 
